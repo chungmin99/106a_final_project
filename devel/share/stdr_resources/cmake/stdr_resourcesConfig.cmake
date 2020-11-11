@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/thitikhomin/ros_workspaces/106a_final_project/devel/lib;/home/thitikhomin/ros_workspaces/lab8/devel/lib;/home/thitikhomin/ros_workspaces/lab7/devel/lib;/home/thitikhomin/ros_workspaces/lab6/devel/lib;/home/thitikhomin/ros_workspaces/lab5/devel/lib;/home/thitikhomin/ros_workspaces/lab4/devel/lib;/home/thitikhomin/ros_workspaces/lab3/devel/lib;/home/thitikhomin/ros_workspaces/lab2/devel/lib;/home/thitikhomin/rethink_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/thitikhomin/ros_workspaces/106a_final_project/devel/lib;/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib;/home/thitikhomin/ros_workspaces/lab8/devel/lib;/home/thitikhomin/ros_workspaces/lab7/devel/lib;/home/thitikhomin/ros_workspaces/lab6/devel/lib;/home/thitikhomin/ros_workspaces/lab5/devel/lib;/home/thitikhomin/ros_workspaces/lab4/devel/lib;/home/thitikhomin/ros_workspaces/lab3/devel/lib;/home/thitikhomin/ros_workspaces/lab2/devel/lib;/home/thitikhomin/rethink_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

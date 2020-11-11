@@ -1440,19 +1440,6 @@ _stdr_msgs_generate_messages_check_deps_RfidSensorMeasurementMsg/fast:
 .PHONY : _stdr_msgs_generate_messages_check_deps_RfidSensorMeasurementMsg/fast
 
 #=============================================================================
-# Target rules for targets named stdr_parser
-
-# Build rule for target.
-stdr_parser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stdr_parser
-.PHONY : stdr_parser
-
-# fast build rule for target.
-stdr_parser/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build
-.PHONY : stdr_parser/fast
-
-#=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
 
 # Build rule for target.
@@ -1462,7 +1449,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f motion/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make motion/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1475,7 +1462,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f motion/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make motion/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1488,7 +1475,7 @@ roscpp_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_eus.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	$(MAKE) -f motion/CMakeFiles/roscpp_generate_messages_eus.dir/build.make motion/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
@@ -1501,7 +1488,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f motion/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make motion/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1514,7 +1501,7 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f motion/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make motion/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -1527,7 +1514,7 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f motion/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make motion/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -1540,7 +1527,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_py.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f motion/CMakeFiles/roscpp_generate_messages_py.dir/build.make motion/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -1553,7 +1540,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f motion/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make motion/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -1566,7 +1553,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f motion/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make motion/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -1579,8 +1566,21 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f motion/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make motion/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named stdr_parser
+
+# Build rule for target.
+stdr_parser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdr_parser
+.PHONY : stdr_parser
+
+# fast build rule for target.
+stdr_parser/fast:
+	$(MAKE) -f stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build.make stdr_simulator/stdr_parser/CMakeFiles/stdr_parser.dir/build
+.PHONY : stdr_parser/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_lisp
@@ -2486,7 +2486,6 @@ help:
 	@echo "... _stdr_msgs_generate_messages_check_deps_RegisterRobotActionFeedback"
 	@echo "... _stdr_msgs_generate_messages_check_deps_RegisterRobotGoal"
 	@echo "... _stdr_msgs_generate_messages_check_deps_RfidSensorMeasurementMsg"
-	@echo "... stdr_parser"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
@@ -2497,6 +2496,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... stdr_parser"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_eus"
 	@echo "... stdr_laser"

@@ -1,0 +1,8 @@
+prefix=/home/thitikhomin/ros_workspaces/106a_final_project/install
+
+Name: motion
+Description: Description of motion
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
