@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_server.dir/src/stdr_server.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_server.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_server.so"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_server.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_server.so"
 )
 
 # Per-language clean rules from dependency scanning.

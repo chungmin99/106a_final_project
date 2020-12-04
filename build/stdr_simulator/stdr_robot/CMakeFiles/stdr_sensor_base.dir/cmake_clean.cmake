@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_sensor_base.dir/src/sensors/sensor_base.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_sensor_base.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_sensor_base.so"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_sensor_base.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_sensor_base.so"
 )
 
 # Per-language clean rules from dependency scanning.

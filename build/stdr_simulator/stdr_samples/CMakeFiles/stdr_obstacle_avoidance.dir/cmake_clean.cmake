@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o"
   "CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance"
 )
 
 # Per-language clean rules from dependency scanning.

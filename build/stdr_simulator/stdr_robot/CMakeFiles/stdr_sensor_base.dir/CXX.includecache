@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_robot/include/stdr_robot/sensors/sensor_base.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_robot/include/stdr_robot/sensors/sensor_base.h
 ros/ros.h
 -
 tf/transform_listener.h
@@ -16,7 +16,7 @@ nav_msgs/OccupancyGrid.h
 geometry_msgs/Pose2D.h
 -
 
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_robot/src/sensors/sensor_base.cpp
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_robot/src/sensors/sensor_base.cpp
 stdr_robot/sensors/sensor_base.h
 -
 

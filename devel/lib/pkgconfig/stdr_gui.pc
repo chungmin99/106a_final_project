@@ -1,4 +1,4 @@
-prefix=/home/thitikhomin/ros_workspaces/106a_final_project/devel
+prefix=/home/piano/ros_workspaces/106a_final_project/devel
 
 Name: stdr_gui
 Description: Description of stdr_gui

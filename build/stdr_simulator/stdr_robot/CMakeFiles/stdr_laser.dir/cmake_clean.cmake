@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_laser.dir/src/sensors/laser.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_laser.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_laser.so"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_laser.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_laser.so"
 )
 
 # Per-language clean rules from dependency scanning.

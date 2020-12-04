@@ -1,8 +1,8 @@
-# Install script for directory: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources
+# Install script for directory: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thitikhomin/ros_workspaces/106a_final_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/piano/ros_workspaces/106a_final_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,24 +33,24 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resources.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resources.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_resources/cmake" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resourcesConfig.cmake"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resourcesConfig-version.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resourcesConfig.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/catkin_generated/installspace/stdr_resourcesConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_resources" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_resources" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_resources" TYPE DIRECTORY FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/maps"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/resources"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/maps"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_resources/resources"
     )
 endif()
 

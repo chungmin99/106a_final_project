@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thitikhomin/ros_workspaces/106a_final_project/src
+CMAKE_SOURCE_DIR = /home/piano/ros_workspaces/106a_final_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thitikhomin/ros_workspaces/106a_final_project/build
+CMAKE_BINARY_DIR = /home/piano/ros_workspaces/106a_final_project/build
 
 # Utility rule file for clean_test_results_stdr_server.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thitikhomin/ros_workspaces/106a_final_project/build
 include stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/progress.make
 
 stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server:
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/thitikhomin/ros_workspaces/106a_final_project/build/test_results/stdr_server
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/piano/ros_workspaces/106a_final_project/build/test_results/stdr_server
 
 clean_test_results_stdr_server: stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server
 clean_test_results_stdr_server: stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build.make
@@ -67,10 +67,10 @@ stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/bu
 .PHONY : stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/build
 
 stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/clean:
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_stdr_server.dir/cmake_clean.cmake
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_stdr_server.dir/cmake_clean.cmake
 .PHONY : stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/clean
 
 stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/depend:
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thitikhomin/ros_workspaces/106a_final_project/src /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/test /home/thitikhomin/ros_workspaces/106a_final_project/build /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piano/ros_workspaces/106a_final_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piano/ros_workspaces/106a_final_project/src /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/test /home/piano/ros_workspaces/106a_final_project/build /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : stdr_simulator/stdr_server/test/CMakeFiles/clean_test_results_stdr_server.dir/depend
 

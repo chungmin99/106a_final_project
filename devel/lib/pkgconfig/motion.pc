@@ -1,4 +1,4 @@
-prefix=/home/thitikhomin/ros_workspaces/106a_final_project/devel
+prefix=/home/piano/ros_workspaces/106a_final_project/devel
 
 Name: motion
 Description: Description of motion

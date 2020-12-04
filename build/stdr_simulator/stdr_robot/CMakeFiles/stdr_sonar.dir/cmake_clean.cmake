@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdr_sonar.dir/src/sensors/sonar.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_sonar.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/libstdr_sonar.so"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_sonar.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/libstdr_sonar.so"
 )
 
 # Per-language clean rules from dependency scanning.

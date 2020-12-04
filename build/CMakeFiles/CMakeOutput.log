@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-112-generic - x86_64
+The system is: Linux - 4.15.0-118-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_601a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_601a6.dir/build.make CMakeFiles/cmTC_601a6.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_601a6.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_601a6.dir/testCCompiler.c.o   -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_601a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_601a6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_601a6.dir/testCCompiler.c.o  -o cmTC_601a6 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6af23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6af23.dir/build.make CMakeFiles/cmTC_6af23.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6af23.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6af23.dir/testCCompiler.c.o   -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6af23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6af23.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6af23.dir/testCCompiler.c.o  -o cmTC_6af23 -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c16ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c16ab.dir/build.make CMakeFiles/cmTC_c16ab.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c16ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c16ab.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o  -o cmTC_c16ab -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_e9c51/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9c51.dir/build.make CMakeFiles/cmTC_e9c51.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e9c51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c51.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o  -o cmTC_e9c51 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c16ab' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXvLAaR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c16ab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9c51' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNRY8zp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e9c51 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c16ab/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c16ab.dir/build.make CMakeFiles/cmTC_c16ab.dir/build]
-  ignore line: [make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c16ab]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c16ab.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o  -o cmTC_c16ab -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e9c51/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e9c51.dir/build.make CMakeFiles/cmTC_e9c51.dir/build]
+  ignore line: [make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e9c51]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c51.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o  -o cmTC_e9c51 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c16ab' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXvLAaR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c16ab /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e9c51' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNRY8zp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e9c51 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXvLAaR.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNRY8zp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c16ab] ==> ignore
+    arg [cmTC_e9c51] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_c16ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e9c51.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9557d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9557d.dir/build.make CMakeFiles/cmTC_9557d.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9557d.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_9557d.dir/feature_tests.c.o   -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9557d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9557d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9557d.dir/feature_tests.c.o  -o cmTC_9557d -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e1b6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1b6b.dir/build.make CMakeFiles/cmTC_e1b6b.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1b6b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_e1b6b.dir/feature_tests.c.o   -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e1b6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1b6b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e1b6b.dir/feature_tests.c.o  -o cmTC_e1b6b -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06f15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06f15.dir/build.make CMakeFiles/cmTC_06f15.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_06f15.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_06f15.dir/feature_tests.c.o   -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_06f15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06f15.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_06f15.dir/feature_tests.c.o  -o cmTC_06f15 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1d00d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d00d.dir/build.make CMakeFiles/cmTC_1d00d.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d00d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_1d00d.dir/feature_tests.c.o   -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1d00d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d00d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1d00d.dir/feature_tests.c.o  -o cmTC_1d00d -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0c86e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c86e.dir/build.make CMakeFiles/cmTC_0c86e.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c86e.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0c86e.dir/feature_tests.c.o   -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0c86e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c86e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0c86e.dir/feature_tests.c.o  -o cmTC_0c86e -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6aea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6aea2.dir/build.make CMakeFiles/cmTC_6aea2.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6aea2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_6aea2.dir/feature_tests.c.o   -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6aea2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aea2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6aea2.dir/feature_tests.c.o  -o cmTC_6aea2 -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52594/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52594.dir/build.make CMakeFiles/cmTC_52594.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_52594.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_52594.dir/testCXXCompiler.cxx.o -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_52594
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52594.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_52594.dir/testCXXCompiler.cxx.o  -o cmTC_52594 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e6b2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6b2f.dir/build.make CMakeFiles/cmTC_e6b2f.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6b2f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e6b2f.dir/testCXXCompiler.cxx.o -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e6b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b2f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e6b2f.dir/testCXXCompiler.cxx.o  -o cmTC_e6b2f -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1cd0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1cd0.dir/build.make CMakeFiles/cmTC_a1cd0.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a1cd0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1cd0.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1cd0 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_ae1cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae1cc.dir/build.make CMakeFiles/cmTC_ae1cc.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ae1cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae1cc.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ae1cc -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1cd0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsIFOC9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a1cd0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae1cc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGBLD3G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ae1cc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a1cd0/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a1cd0.dir/build.make CMakeFiles/cmTC_a1cd0.dir/build]
-  ignore line: [make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a1cd0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1cd0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1cd0 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ae1cc/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ae1cc.dir/build.make CMakeFiles/cmTC_ae1cc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ae1cc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae1cc.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ae1cc -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1cd0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsIFOC9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a1cd0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ae1cc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGBLD3G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ae1cc /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccsIFOC9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGBLD3G.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a1cd0] ==> ignore
+    arg [cmTC_ae1cc] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_a1cd0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ae1cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c39fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c39fd.dir/build.make CMakeFiles/cmTC_c39fd.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c39fd.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_c39fd.dir/feature_tests.cxx.o -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c39fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c39fd.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c39fd.dir/feature_tests.cxx.o  -o cmTC_c39fd -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7ccd2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ccd2.dir/build.make CMakeFiles/cmTC_7ccd2.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ccd2.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_7ccd2.dir/feature_tests.cxx.o -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ccd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ccd2.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7ccd2.dir/feature_tests.cxx.o  -o cmTC_7ccd2 -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2612/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2612.dir/build.make CMakeFiles/cmTC_a2612.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a2612.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a2612.dir/feature_tests.cxx.o -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a2612
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2612.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a2612.dir/feature_tests.cxx.o  -o cmTC_a2612 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2cc9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cc9c.dir/build.make CMakeFiles/cmTC_2cc9c.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cc9c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_2cc9c.dir/feature_tests.cxx.o -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2cc9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc9c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2cc9c.dir/feature_tests.cxx.o  -o cmTC_2cc9c -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_afe85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_afe85.dir/build.make CMakeFiles/cmTC_afe85.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_afe85.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_afe85.dir/feature_tests.cxx.o -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_afe85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afe85.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_afe85.dir/feature_tests.cxx.o  -o cmTC_afe85 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_657ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_657ec.dir/build.make CMakeFiles/cmTC_657ec.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_657ec.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_657ec.dir/feature_tests.cxx.o -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_657ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_657ec.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_657ec.dir/feature_tests.cxx.o  -o cmTC_657ec -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,47 +553,47 @@ make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e345/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3e345.dir/build.make CMakeFiles/cmTC_3e345.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e345.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_3e345.dir/CheckIncludeFile.c.o   -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3e345
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e345.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3e345.dir/CheckIncludeFile.c.o  -o cmTC_3e345 -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_03f8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03f8e.dir/build.make CMakeFiles/cmTC_03f8e.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03f8e.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_03f8e.dir/CheckIncludeFile.c.o   -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_03f8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f8e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_03f8e.dir/CheckIncludeFile.c.o  -o cmTC_03f8e -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_08edf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08edf.dir/build.make CMakeFiles/cmTC_08edf.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_08edf.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_08edf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_08edf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08edf.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_08edf.dir/CheckFunctionExists.c.o  -o cmTC_08edf -rdynamic -lpthread 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_be1d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be1d4.dir/build.make CMakeFiles/cmTC_be1d4.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be1d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_be1d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be1d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1d4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_be1d4.dir/CheckFunctionExists.c.o  -o cmTC_be1d4 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the Q_WS_X11 exist passed with the following output:
-Change Dir: /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
+Change Dir: /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d479f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d479f.dir/build.make CMakeFiles/cmTC_d479f.dir/build
-make[1]: Entering directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d479f.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_d479f.dir/CheckSymbolExists.cxx.o -c /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_d479f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d479f.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d479f.dir/CheckSymbolExists.cxx.o  -o cmTC_d479f -rdynamic 
-make[1]: Leaving directory '/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ffb30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffb30.dir/build.make CMakeFiles/cmTC_ffb30.dir/build
+make[1]: Entering directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffb30.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_ffb30.dir/CheckSymbolExists.cxx.o -c /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ffb30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffb30.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ffb30.dir/CheckSymbolExists.cxx.o  -o cmTC_ffb30 -rdynamic 
+make[1]: Leaving directory '/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp'
 
-File /home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/piano/ros_workspaces/106a_final_project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

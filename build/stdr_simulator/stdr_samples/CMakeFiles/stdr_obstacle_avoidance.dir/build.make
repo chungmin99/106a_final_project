@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thitikhomin/ros_workspaces/106a_final_project/src
+CMAKE_SOURCE_DIR = /home/piano/ros_workspaces/106a_final_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thitikhomin/ros_workspaces/106a_final_project/build
+CMAKE_BINARY_DIR = /home/piano/ros_workspaces/106a_final_project/build
 
 # Include any dependencies generated for this target.
 include stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/depend.make
@@ -58,17 +58,17 @@ include stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/progr
 include stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/flags.make
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/flags.make
-stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o -c /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp
+stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o"
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o -c /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp > CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp > CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.i
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.s
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o.requires:
 
@@ -82,17 +82,17 @@ stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_
 
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/flags.make
-stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o -c /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp
+stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o"
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o -c /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp > CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp > CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.i
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp -o CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.s
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o.requires:
 
@@ -113,44 +113,44 @@ stdr_obstacle_avoidance_OBJECTS = \
 # External object files for target stdr_obstacle_avoidance
 stdr_obstacle_avoidance_EXTERNAL_OBJECTS =
 
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroslib.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librospack.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libactionlib.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroscpp.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf2.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librostime.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libcpp_common.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thitikhomin/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance"
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_obstacle_avoidance.dir/link.txt --verbose=$(VERBOSE)
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build.make
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroslib.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librospack.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libactionlib.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroscpp.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libtf2.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/librostime.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /opt/ros/kinetic/lib/libcpp_common.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance: stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/piano/ros_workspaces/106a_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance"
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stdr_obstacle_avoidance.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build: /home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance
+stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build: /home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_samples/stdr_obstacle_avoidance
 
 .PHONY : stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/build
 
@@ -160,10 +160,10 @@ stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/requires: std
 .PHONY : stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/requires
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/clean:
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && $(CMAKE_COMMAND) -P CMakeFiles/stdr_obstacle_avoidance.dir/cmake_clean.cmake
+	cd /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples && $(CMAKE_COMMAND) -P CMakeFiles/stdr_obstacle_avoidance.dir/cmake_clean.cmake
 .PHONY : stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/clean
 
 stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/depend:
-	cd /home/thitikhomin/ros_workspaces/106a_final_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thitikhomin/ros_workspaces/106a_final_project/src /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples /home/thitikhomin/ros_workspaces/106a_final_project/build /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples /home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/piano/ros_workspaces/106a_final_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/piano/ros_workspaces/106a_final_project/src /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples /home/piano/ros_workspaces/106a_final_project/build /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples /home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/depend
 

@@ -61,8 +61,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/stdr_gui_node.dir/moc_stdr_info_connector.cxx.o"
   "CMakeFiles/stdr_gui_node.dir/moc_stdr_map_connector.cxx.o"
   "CMakeFiles/stdr_gui_node.dir/moc_stdr_robot_creator_connector.cxx.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_gui/stdr_gui_node.pdb"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/stdr_gui/stdr_gui_node"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_gui/stdr_gui_node.pdb"
+  "/home/piano/ros_workspaces/106a_final_project/devel/lib/stdr_gui/stdr_gui_node"
 )
 
 # Per-language clean rules from dependency scanning.

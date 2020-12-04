@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roslib;roscpp;tf;stdr_msgs;geometry_msgs;sensor_msgs;nav_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "stdr_samples"
-PROJECT_SPACE_DIR = "/home/thitikhomin/ros_workspaces/106a_final_project/install"
+PROJECT_SPACE_DIR = "/home/piano/ros_workspaces/106a_final_project/install"
 PROJECT_VERSION = "0.3.2"
