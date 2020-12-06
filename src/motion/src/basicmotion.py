@@ -10,11 +10,12 @@ from sensor_msgs.msg import LaserScan, Range
 
 
 def motion_controller():
-
-	test_sonar = rospy.Subscriber('/robot1/sonar_0', Range, sonar0callback, queue_size=10)
-	test_sonar1 = rospy.Subscriber('/robot1/sonar_1', Range, sonar1callback, queue_size=10)
-	test_sonar2 = rospy.Subscriber('/robot1/sonar_2', Range, sonar2callback, queue_size=10)
-	laser_subscriber  = rospy.Subscriber('/robot1/laser_0', LaserScan, straightLineAvoidance, queue_size=10)
+	global firstdata
+	firstdata = True
+	test_sonar = rospy.Subscriber('/robot0/sonar_0', Range, sonar0callback, queue_size=10)
+	test_sonar1 = rospy.Subscriber('/robot0/sonar_1', Range, sonar1callback, queue_size=10)
+	test_sonar2 = rospy.Subscriber('/robot0/sonar_2', Range, sonar2callback, queue_size=10)
+	laser_subscriber  = rospy.Subscriber('/robot0/laser_0', LaserScan, straightLineAvoidance, queue_size=10)
 	
 	rospy.spin()
 
@@ -28,14 +29,52 @@ def sonar1callback(message):
 
 def sonar2callback(message):
 	global sonar2
-	sonar2 = message	
-	
-def straightLineAvoidance(message):
-	motion_publisher = rospy.Publisher('/robot1/cmd_vel', Twist, queue_size=10)
-	
-	laser_data = message
+	sonar2 = message
 
+def wiggleleft(wigglespeed):
+	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
+	print("Wiggleleft")
+	control_command = Twist()
+
+	control_command.linear.x = 0
+	control_command.linear.y = wigglespeed
+
+     	motion_publisher.publish(control_command)
+
+	control_command.linear.x = wigglespeed
+	control_command.linear.y = 0
+
+     	motion_publisher.publish(control_command)
+
+
+def wiggleright(wigglespeed):
+	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
+	print("Wiggleright")
+	control_command = Twist()
+
+	control_command.linear.x = 0
+	control_command.linear.y = -1*wigglespeed
+
+     	motion_publisher.publish(control_command)
+
+	control_command.linear.x = wigglespeed
+	control_command.linear.y = 0
+
+     	motion_publisher.publish(control_command)
+
+def straightLineAvoidance(message):
+	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
 	
+	global pastlaser
+	laser_data = message
+	global firstdata
+
+	# SPEED PARAMETERS
+	wigglespeed = 0.3
+
+
+
+
 	midsonar = sonar0.range
 	leftsonar = sonar1.range
 	rightsonar = sonar2.range
@@ -48,6 +87,14 @@ def straightLineAvoidance(message):
 
 	# sets all inf to max laser dist
 	Laser_ranges[Laser_ranges == inf] = laser_data.range_max
+
+	if (firstdata == False):
+	    if np.array_equal(pastlaser,Laser_ranges):
+		wiggleleft(wigglespeed)
+		wiggleright(wigglespeed)
+		pastlaser = Laser_ranges
+		return
+
 		
 	size = len(Laser_ranges)
 	Rightranges = Laser_ranges[0:size/5]
@@ -81,16 +128,19 @@ def straightLineAvoidance(message):
 	    control_command.linear.y = avgRightmid/laser_data.range_max*-1
 
 	# STUCK CONDITIONS
-	if (leftsonar < 0.36):
+	if (leftsonar < 0.36 and leftsonar < rightsonar):
 	    print("stuckleft")
-	    control_command.linear.x = 0.1
+	    control_command.linear.x = 0.3
 	    control_command.linear.y = -0.3
-	elif (rightsonar < 0.36):
+	elif (rightsonar < 0.36 and rightsonar < leftsonar):
 	    print("stuckright")
-	    control_command.linear.x = 0.1
+	    control_command.linear.x = 0.3
 	    control_command.linear.y = 0.3
 
      	motion_publisher.publish(control_command)
+
+	firstdata = False
+	pastlaser = Laser_ranges
 """
 	if (midsonar < 0.5):
 		if (rightsonar > 2*midsonar):
