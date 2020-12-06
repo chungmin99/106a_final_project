@@ -1,8 +1,8 @@
-# Install script for directory: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs
+# Install script for directory: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thitikhomin/ros_workspaces/106a_final_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/piano/ros_workspaces/106a_final_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,142 +34,142 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/msg" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/Noise.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/LaserSensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SonarSensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/KinematicMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/FootprintMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotIndexedMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotIndexedVectorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidSensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidSensorMeasurementMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidTag.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidTagVector.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSensorMeasurementMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSource.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSourceVector.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSensorMeasurementMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSource.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSourceVector.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SensorMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SensorMeasurementMsg.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2Source.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SourceVector.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/Noise.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/LaserSensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SonarSensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/KinematicMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/FootprintMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotIndexedMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RobotIndexedVectorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidSensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidSensorMeasurementMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidTag.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/RfidTagVector.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSensorMeasurementMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSource.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/SoundSourceVector.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSensorMeasurementMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSource.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/ThermalSourceVector.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SensorMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SensorMeasurementMsg.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2Source.msg"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/msg/CO2SourceVector.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/srv" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/LoadMap.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/LoadExternalMap.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/RegisterGui.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/MoveRobot.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddRfidTag.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteRfidTag.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddThermalSource.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteThermalSource.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddSoundSource.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteSoundSource.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddCO2Source.srv"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteCO2Source.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/LoadMap.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/LoadExternalMap.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/RegisterGui.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/MoveRobot.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddRfidTag.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteRfidTag.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddThermalSource.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteThermalSource.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddSoundSource.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteSoundSource.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/AddCO2Source.srv"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/srv/DeleteCO2Source.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/action" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/RegisterRobot.action"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/SpawnRobot.action"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/DeleteRobot.action"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/RegisterRobot.action"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/SpawnRobot.action"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/action/DeleteRobot.action"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/msg" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotAction.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionFeedback.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotAction.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotActionFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/RegisterRobotFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/msg" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotAction.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionFeedback.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotAction.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotActionFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/SpawnRobotFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/msg" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotAction.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionFeedback.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotGoal.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotResult.msg"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotAction.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotActionFeedback.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotGoal.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotResult.msg"
+    "/home/piano/ros_workspaces/106a_final_project/devel/share/stdr_msgs/msg/DeleteRobotFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/cmake" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/cmake" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/devel/include/stdr_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/devel/include/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/roseus/ros/stdr_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/devel/share/roseus/ros/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/common-lisp/ros/stdr_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/devel/share/common-lisp/ros/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/devel/share/gennodejs/ros/stdr_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/devel/share/gennodejs/ros/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/python2.7/dist-packages/stdr_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/piano/ros_workspaces/106a_final_project/devel/lib/python2.7/dist-packages/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/devel/lib/python2.7/dist-packages/stdr_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/devel/lib/python2.7/dist-packages/stdr_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/cmake" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/cmake" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs/cmake" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgsConfig.cmake"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgsConfig-version.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgsConfig.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/catkin_generated/installspace/stdr_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_msgs" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_msgs" TYPE DIRECTORY FILES "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/stdr_msgs" TYPE DIRECTORY FILES "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_msgs/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

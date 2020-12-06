@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp" "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp" "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o"
+  "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/main.cpp" "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/main.cpp.o"
+  "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/src/obstacle_avoidance/obstacle_avoidance.cpp" "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/CMakeFiles/stdr_obstacle_avoidance.dir/src/obstacle_avoidance/obstacle_avoidance.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/include"
-  "/home/thitikhomin/ros_workspaces/106a_final_project/devel/include"
+  "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_samples/include"
+  "/home/piano/ros_workspaces/106a_final_project/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

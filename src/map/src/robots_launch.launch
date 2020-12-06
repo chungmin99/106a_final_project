@@ -1,0 +1,18 @@
+<launch>
+    <group ns="robot1">
+        <param name="tf_prefix" value="robot1_tf"/>
+        <include file="$(find map)/src/one_robot_launch.launch">
+            <arg name="robot_name" value="robot1"/>
+            <arg name="init_pose" value= "5 5 0"/>
+        </include>
+    </group>
+
+    <group ns="robot2">
+        <param name="tf_prefix" value="robot2_tf"/>
+        <include file="$(find map)/src/one_robot_launch.launch">
+            <arg name="robot_name" value="robot2"/>
+            <arg name="init_pose" value= "10 4 1"/>
+        </include>
+    </group>
+
+</launch>

@@ -1,8 +1,8 @@
-# Install script for directory: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_simulator
+# Install script for directory: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thitikhomin/ros_workspaces/106a_final_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/piano/ros_workspaces/106a_final_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_simulator" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_simulator" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_simulator/package.xml")
 endif()
 

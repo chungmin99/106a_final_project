@@ -1,8 +1,8 @@
-# Install script for directory: /home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers
+# Install script for directory: /home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thitikhomin/ros_workspaces/106a_final_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/piano/ros_workspaces/106a_final_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,24 +33,24 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchers.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_launchers/cmake" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchersConfig.cmake"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchersConfig-version.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchersConfig.cmake"
+    "/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/catkin_generated/installspace/stdr_launchersConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_launchers" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_launchers" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/stdr_launchers" TYPE DIRECTORY FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/launch"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/rviz"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/launch"
+    "/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_launchers/rviz"
     )
 endif()
 

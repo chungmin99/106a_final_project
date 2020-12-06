@@ -1,8 +1,8 @@
-# Install script for directory: /home/thitikhomin/ros_workspaces/106a_final_project/src
+# Install script for directory: /home/piano/ros_workspaces/106a_final_project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thitikhomin/ros_workspaces/106a_final_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/piano/ros_workspaces/106a_final_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,99 +44,101 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/_setup_util.py")
+   "/home/piano/ros_workspaces/106a_final_project/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE PROGRAM FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE PROGRAM FILES "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/env.sh")
+   "/home/piano/ros_workspaces/106a_final_project/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE PROGRAM FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE PROGRAM FILES "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/setup.bash;/home/thitikhomin/ros_workspaces/106a_final_project/install/local_setup.bash")
+   "/home/piano/ros_workspaces/106a_final_project/install/setup.bash;/home/piano/ros_workspaces/106a_final_project/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.bash"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE FILE FILES
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.bash"
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/setup.sh;/home/thitikhomin/ros_workspaces/106a_final_project/install/local_setup.sh")
+   "/home/piano/ros_workspaces/106a_final_project/install/setup.sh;/home/piano/ros_workspaces/106a_final_project/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.sh"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE FILE FILES
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.sh"
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/setup.zsh;/home/thitikhomin/ros_workspaces/106a_final_project/install/local_setup.zsh")
+   "/home/piano/ros_workspaces/106a_final_project/install/setup.zsh;/home/piano/ros_workspaces/106a_final_project/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE FILE FILES
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.zsh"
-    "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE FILE FILES
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/setup.zsh"
+    "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thitikhomin/ros_workspaces/106a_final_project/install/.rosinstall")
+   "/home/piano/ros_workspaces/106a_final_project/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thitikhomin/ros_workspaces/106a_final_project/install" TYPE FILE FILES "/home/thitikhomin/ros_workspaces/106a_final_project/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/piano/ros_workspaces/106a_final_project/install" TYPE FILE FILES "/home/piano/ros_workspaces/106a_final_project/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/gtest/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_simulator/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_parser/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_teleop/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/motion/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_robot/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/cmake_install.cmake")
-  include("/home/thitikhomin/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_gui/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/gtest/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_launchers/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_msgs/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_resources/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_simulator/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/multiple_turtlebots_stage_amcl/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_parser/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_teleop/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/motion/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_robot/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_samples/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_server/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/stdr_simulator/stdr_gui/cmake_install.cmake")
+  include("/home/piano/ros_workspaces/106a_final_project/build/map/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +150,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thitikhomin/ros_workspaces/106a_final_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/piano/ros_workspaces/106a_final_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

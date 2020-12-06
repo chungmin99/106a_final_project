@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/map_loader.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/map_loader.h
 stdio.h
 -
 stdlib.h
@@ -18,17 +18,17 @@ fstream
 string
 -
 ros/ros.h
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/ros/ros.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/ros/ros.h
 map_server/image_loader.h
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/map_server/image_loader.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/map_server/image_loader.h
 nav_msgs/MapMetaData.h
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/nav_msgs/MapMetaData.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/nav_msgs/MapMetaData.h
 yaml-cpp/yaml.h
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/yaml-cpp/yaml.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/include/stdr_server/yaml-cpp/yaml.h
 
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/src/map_loader.cpp
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/src/map_loader.cpp
 stdr_server/map_loader.h
-/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/src/stdr_server/map_loader.h
+/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_server/src/stdr_server/map_loader.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

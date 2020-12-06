@@ -1,0 +1,8 @@
+<launch>
+    <arg name="robot_name"/>
+    <arg name="init_pose"/>
+
+    <node pkg="stdr_robot" type="robot_handler" name="$(arg robot_name)" 
+        args="add $(find turtlebot_stdr)/robot/turtlebot.yaml $(arg init_pose)"/>
+
+</launch>

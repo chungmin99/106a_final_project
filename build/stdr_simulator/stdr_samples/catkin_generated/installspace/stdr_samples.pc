@@ -1,4 +1,4 @@
-prefix=/home/thitikhomin/ros_workspaces/106a_final_project/install
+prefix=/home/piano/ros_workspaces/106a_final_project/install
 
 Name: stdr_samples
 Description: Description of stdr_samples

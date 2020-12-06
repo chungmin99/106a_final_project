@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -DHAVE_NEW_YAMLCPP -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stdr_parser\" -Dstdr_parser_EXPORTS
 
-CXX_INCLUDES = -I/home/thitikhomin/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_parser/include -I/home/thitikhomin/ros_workspaces/106a_final_project/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/piano/ros_workspaces/106a_final_project/src/stdr_simulator/stdr_parser/include -I/home/piano/ros_workspaces/106a_final_project/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

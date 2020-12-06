@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/thitikhomin/ros_workspaces/106a_final_project/build"
+export PWD="/home/piano/ros_workspaces/106a_final_project/build"
