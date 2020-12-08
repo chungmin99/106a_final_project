@@ -1,8 +1,0 @@
-prefix=/home/piano/ros_workspaces/106a_final_project/install
-
-Name: stdr_teleop
-Description: Description of stdr_teleop
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

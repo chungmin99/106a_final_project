@@ -1,8 +1,0 @@
-prefix=/home/piano/ros_workspaces/106a_final_project/devel
-
-Name: stdr_launchers
-Description: Description of stdr_launchers
-Version: 0.3.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
