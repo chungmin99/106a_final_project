@@ -38,7 +38,7 @@ if __name__ == '__main__':
   #Run this program as a new node in the ROS computation graph 
   #called /obstacle_observer.
   rospy.init_node('obstacle_observer', anonymous=True)
-  position_list = [0 for i in range(len(sys.argv[1]) + 1)]
+  position_list = [0 for i in range(int(sys.argv[1]))]
 
   # TODO we should've launched whatever turtle obstacles from launch file
   try:
