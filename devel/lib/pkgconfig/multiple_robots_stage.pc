@@ -1,8 +1,0 @@
-prefix=/home/piano/ros_workspaces/106a_final_project/devel
-
-Name: multiple_robots_stage
-Description: Description of multiple_robots_stage
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
