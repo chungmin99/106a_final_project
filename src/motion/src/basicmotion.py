@@ -7,17 +7,35 @@ import numpy as np
 from numpy import inf
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan, Range
+from nav_msgs.msg import Odometry
 
+import importlib
+_map_msg = importlib.import_module('map.msg')
 
 def motion_controller():
 	global firstdata
+	global boolotherodom
+	boolotherodom = False
 	firstdata = True
+	test = rospy.Subscriber('/robot0/odom', Odometry, odomcallback, queue_size =10)
+	pub = rospy.Subscriber('/robot_list/pos', _map_msg.OdomList, otherodom, queue_size=10)
 	test_sonar = rospy.Subscriber('/robot0/sonar_0', Range, sonar0callback, queue_size=10)
 	test_sonar1 = rospy.Subscriber('/robot0/sonar_1', Range, sonar1callback, queue_size=10)
 	test_sonar2 = rospy.Subscriber('/robot0/sonar_2', Range, sonar2callback, queue_size=10)
 	laser_subscriber  = rospy.Subscriber('/robot0/laser_0', LaserScan, straightLineAvoidance, queue_size=10)
 	
 	rospy.spin()
+
+def odomcallback(message):
+	global originalodom
+	originalodom = message
+
+def otherodom(message):
+	global otherodom
+	global boolotherodom
+	boolotherodom = True
+	otherodom = message
+
 
 def sonar0callback(message):
 	global sonar0
@@ -33,7 +51,7 @@ def sonar2callback(message):
 
 def wiggleleft(wigglespeed):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
-	print("Wiggleleft")
+	#print("Wiggleleft")
 	control_command = Twist()
 
 	control_command.linear.x = 0
@@ -49,7 +67,7 @@ def wiggleleft(wigglespeed):
 
 def wiggleright(wigglespeed):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
-	print("Wiggleright")
+	#print("Wiggleright")
 	control_command = Twist()
 
 	control_command.linear.x = 0
@@ -62,12 +80,95 @@ def wiggleright(wigglespeed):
 
      	motion_publisher.publish(control_command)
 
+
+def dynamicPassiveAvoid(xdiff, ydiff):
+	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
+
+	control_command = Twist()
+
+	print("AVOIDING")
+
+	control_command.linear.x = -0.5/ydiff*0.1
+	control_command.linear.y = -0.5/xdiff*0.1
+	print(control_command.linear.x)
+     	motion_publisher.publish(control_command)
+
+
 def straightLineAvoidance(message):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
 	
+	currx = originalodom.pose.pose.position.x
+	curry = originalodom.pose.pose.position.y
+	if (curry > 13):
+	    control_command = Twist()
+	    control_command.linear.x = 0
+	    control_command.linear.y = 0
+	    motion_publisher.publish(control_command)
+	    return
+
+########################### DYNAMIC OBSTACLES ################################
+
+
+	if boolotherodom:
+	    currx = originalodom.pose.pose.position.x
+	    curry = originalodom.pose.pose.position.y
+	    #print('X:',currx)
+	    #print('Y:',curry)
+	    robotnum = []
+	    robotcoorx = []
+	    robotcoory = []
+            for i in range(len(otherodom.pointarray)):
+		robotnum.append(i+1)
+		robotcoorx.append(otherodom.pointarray[i].x)
+		robotcoory.append(otherodom.pointarray[i].y)
+	    
+	    robotnum = np.asarray(robotnum)
+	    robotcoorx = np.asarray(robotcoorx)
+	    robotcoory = np.asarray(robotcoory)
+
+            mindistance = 99999
+	    closestrobot = 0
+            index = 0
+            for i in range(len(robotnum)):
+		
+		distance = ((robotcoorx[i]-currx)**2+(robotcoory[i]-curry)**2)**0.5
+		if distance<mindistance and curry < robotcoory[i]+0.5:
+		    mindistance = distance
+		    closestrobot = robotnum[i]
+		    index = i
+
+	    #print('Closest Robot: ',closestrobot)
+	    #print('Distance : ', mindistance)
+	
+	    if (abs(robotcoorx[index]-currx) <= .8) and (abs(robotcoory[index]-curry) <= 0.8):
+		dynamicPassiveAvoid(robotcoorx[index]-currx,robotcoory[index]-curry)
+		return
+
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################# STATIC OBSTACLES ##################################
+
+
 	global pastlaser
 	laser_data = message
 	global firstdata
+
 
 	# SPEED PARAMETERS
 	wigglespeed = 0.3
@@ -120,20 +221,20 @@ def straightLineAvoidance(message):
 
 	# SIDEWAYS CONDITIONS
 	if (avgLeftmid >= avgRightmid):
-	    print("avgleft")
+	    #print("avgleft")
 
 	    control_command.linear.y = avgLeftmid/laser_data.range_max*1
 	elif (avgLeftmid < avgRightmid):
-	    print("avgright")
+	    #print("avgright")
 	    control_command.linear.y = avgRightmid/laser_data.range_max*-1
 
 	# STUCK CONDITIONS
 	if (leftsonar < 0.36 and leftsonar < rightsonar):
-	    print("stuckleft")
+	    #print("stuckleft")
 	    control_command.linear.x = 0.3
 	    control_command.linear.y = -0.3
 	elif (rightsonar < 0.36 and rightsonar < leftsonar):
-	    print("stuckright")
+	    #print("stuckright")
 	    control_command.linear.x = 0.3
 	    control_command.linear.y = 0.3
 
