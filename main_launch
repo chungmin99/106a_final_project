@@ -2,17 +2,39 @@
 
 # ./main_launch num_obstacles field_name (field_name TBD)
 # currently working on implementing num_obstacles
+# IF YOU WANT THE HARD-CODED OBSTACLE POSITIONS RIGHT NOW,
+# PUT A DUMMY VARIABLE NAME ON FIELD_NAME AND CHANGE THE SCRIPT YOURSelf
+# AND FILL IN THE FIELD_NAME
+# Also, if your script failw tih some yaml read error, you probably typed in the 
+# yaml file name wrong. 
+
+#Example to launch: ./main_launch (number of moving obstacles) (valid map name)
 
 source devel/setup.bash
 
-roslaunch map server_default_map.launch &
+roslaunch map server_default_map.launch map_name:="$2" &
 serv_pid=$!
 
 sleep 5 
 
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5 5 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10 4 1
-rosrun map obstacle_controller.py 2
+rosrun map obstacle_controller.py 2 &
+
+# # In case we go into generating obstacles randomly, commented out code
+# # Also, keep in mind that stdr map manager prints out map size + m/cell
+# for i in $(seq 1 "$1"); do
+# 	rosrun stdr_robot robot_handler add src/map/turtlebot.yaml $((1 + $RANDOM % 14)) $((1 + $RANDOM % 14)) $(($RANDOM % 10))
+# done
+# rosrun map obstacle_controller.py "$1" &
+
+obs_control_pid=$!
+
+rosrun map obstacle_observer.py 2 &
+obs_observer_pid=$!
 
 trap "kill -2 $serv_pid" 2
+trap "kill -2 $obs_control_pid" 2
+trap "kill -2 $obs_observer_pid" 2
+
 wait $serv_pid
