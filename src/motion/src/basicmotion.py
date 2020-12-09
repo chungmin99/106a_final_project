@@ -7,17 +7,35 @@ import numpy as np
 from numpy import inf
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan, Range
+from nav_msgs.msg import Odometry
 
+import importlib
+_map_msg = importlib.import_module('map.msg')
 
 def motion_controller():
 	global firstdata
+	global boolotherodom
+	boolotherodom = False
 	firstdata = True
+	test = rospy.Subscriber('/robot0/odom', Odometry, odomcallback, queue_size =10)
+	pub = rospy.Subscriber('/robot_list/pos', _map_msg.OdomList, otherodom, queue_size=10)
 	test_sonar = rospy.Subscriber('/robot0/sonar_0', Range, sonar0callback, queue_size=10)
 	test_sonar1 = rospy.Subscriber('/robot0/sonar_1', Range, sonar1callback, queue_size=10)
 	test_sonar2 = rospy.Subscriber('/robot0/sonar_2', Range, sonar2callback, queue_size=10)
 	laser_subscriber  = rospy.Subscriber('/robot0/laser_0', LaserScan, straightLineAvoidance, queue_size=10)
 	
 	rospy.spin()
+
+def odomcallback(message):
+	global originalodom
+	originalodom = message
+
+def otherodom(message):
+	global otherodom
+	global boolotherodom
+	boolotherodom = True
+	otherodom = message
+
 
 def sonar0callback(message):
 	global sonar0
@@ -33,7 +51,7 @@ def sonar2callback(message):
 
 def wiggleleft(wigglespeed):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
-	print("Wiggleleft")
+	#print("Wiggleleft")
 	control_command = Twist()
 
 	control_command.linear.x = 0
@@ -49,7 +67,7 @@ def wiggleleft(wigglespeed):
 
 def wiggleright(wigglespeed):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
-	print("Wiggleright")
+	#print("Wiggleright")
 	control_command = Twist()
 
 	control_command.linear.x = 0
@@ -65,9 +83,53 @@ def wiggleright(wigglespeed):
 def straightLineAvoidance(message):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
 	
+
+
+########################### DYNAMIC OBSTACLES ################################
+
+
+	if boolotherodom:
+	    print(len(otherodom.pointarray))
+	    print("ROBOT1")
+	    print(otherodom.pointarray[0])
+	    print("ROBOT2")
+	    print(otherodom.pointarray[1])
+	
+
+
+
+	else:
+	    print("FALSE")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################# STATIC OBSTACLES ##################################
+
+
 	global pastlaser
 	laser_data = message
 	global firstdata
+
 
 	# SPEED PARAMETERS
 	wigglespeed = 0.3
@@ -120,20 +182,20 @@ def straightLineAvoidance(message):
 
 	# SIDEWAYS CONDITIONS
 	if (avgLeftmid >= avgRightmid):
-	    print("avgleft")
+	    #print("avgleft")
 
 	    control_command.linear.y = avgLeftmid/laser_data.range_max*1
 	elif (avgLeftmid < avgRightmid):
-	    print("avgright")
+	    #print("avgright")
 	    control_command.linear.y = avgRightmid/laser_data.range_max*-1
 
 	# STUCK CONDITIONS
 	if (leftsonar < 0.36 and leftsonar < rightsonar):
-	    print("stuckleft")
+	    #print("stuckleft")
 	    control_command.linear.x = 0.3
 	    control_command.linear.y = -0.3
 	elif (rightsonar < 0.36 and rightsonar < leftsonar):
-	    print("stuckright")
+	    #print("stuckright")
 	    control_command.linear.x = 0.3
 	    control_command.linear.y = 0.3
 
