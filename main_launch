@@ -41,6 +41,8 @@ obs_control_pid=$!
 rosrun map obstacle_observer.py 6 &
 obs_observer_pid=$!
 
+#rosrun motion basicmotion.py
+
 trap "kill -2 $serv_pid" 2
 trap "kill -2 $obs_control_pid" 2
 trap "kill -2 $obs_observer_pid" 2

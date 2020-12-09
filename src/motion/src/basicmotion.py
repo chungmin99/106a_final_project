@@ -87,19 +87,7 @@ def dynamicPassiveAvoid(xdiff, ydiff):
 	control_command = Twist()
 
 	print("AVOIDING")
-	if ydiff > 0:
-		control_command.linear.x = max(-.1,-1/ydiff)
-		control_command.linear.x = -0.5/ydiff*0.1
 
-	else: 
-		control_command.linear.x = min(.1,-1/ydiff)
-		control_command.linear.x = -0.5/ydiff*0.1
-
-	if xdiff > 0:
-		control_command.linear.y = max(-.1,-1/xdiff)
-		control_command.linear.y = -0.5/xdiff*0.1
-	else: 
-		control_command.linear.y = min(.1,-1/xdiff)
 	control_command.linear.x = -0.5/ydiff*0.1
 	control_command.linear.y = -0.5/xdiff*0.1
 	print(control_command.linear.x)
@@ -152,7 +140,7 @@ def straightLineAvoidance(message):
 	    #print('Closest Robot: ',closestrobot)
 	    #print('Distance : ', mindistance)
 	
-	    if (abs(robotcoorx[index]-currx) <= 0.5) and (abs(robotcoory[index]-curry) <= 0.6):
+	    if (abs(robotcoorx[index]-currx) <= .8) and (abs(robotcoory[index]-curry) <= 0.8):
 		dynamicPassiveAvoid(robotcoorx[index]-currx,robotcoory[index]-curry)
 		return
 
