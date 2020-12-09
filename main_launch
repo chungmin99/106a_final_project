@@ -28,6 +28,7 @@ rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 7.75 12.5 0
 # rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10 4.5 0
 rosrun map obstacle_controller.py 6 &
 
+
 # # In case we go into generating obstacles randomly, commented out code
 # # Also, keep in mind that stdr map manager prints out map size + m/cell
 # for i in $(seq 1 "$1"); do

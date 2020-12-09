@@ -80,32 +80,83 @@ def wiggleright(wigglespeed):
 
      	motion_publisher.publish(control_command)
 
+
+def dynamicPassiveAvoid(xdiff, ydiff):
+	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
+
+	control_command = Twist()
+
+	print("AVOIDING")
+	if ydiff > 0:
+		control_command.linear.x = max(-.1,-1/ydiff)
+		control_command.linear.x = -0.5/ydiff*0.1
+
+	else: 
+		control_command.linear.x = min(.1,-1/ydiff)
+		control_command.linear.x = -0.5/ydiff*0.1
+
+	if xdiff > 0:
+		control_command.linear.y = max(-.1,-1/xdiff)
+		control_command.linear.y = -0.5/xdiff*0.1
+	else: 
+		control_command.linear.y = min(.1,-1/xdiff)
+	control_command.linear.x = -0.5/ydiff*0.1
+	control_command.linear.y = -0.5/xdiff*0.1
+	print(control_command.linear.x)
+     	motion_publisher.publish(control_command)
+
+
 def straightLineAvoidance(message):
 	motion_publisher = rospy.Publisher('/robot0/cmd_vel', Twist, queue_size=10)
 	
-
+	currx = originalodom.pose.pose.position.x
+	curry = originalodom.pose.pose.position.y
+	if (curry > 13):
+	    control_command = Twist()
+	    control_command.linear.x = 0
+	    control_command.linear.y = 0
+	    motion_publisher.publish(control_command)
+	    return
 
 ########################### DYNAMIC OBSTACLES ################################
 
 
 	if boolotherodom:
-	    print(len(otherodom.pointarray))
-	    print("ROBOT1")
-	    print(otherodom.pointarray[0])
-	    print("ROBOT2")
-	    print(otherodom.pointarray[1])
+	    currx = originalodom.pose.pose.position.x
+	    curry = originalodom.pose.pose.position.y
+	    #print('X:',currx)
+	    #print('Y:',curry)
+	    robotnum = []
+	    robotcoorx = []
+	    robotcoory = []
+            for i in range(len(otherodom.pointarray)):
+		robotnum.append(i+1)
+		robotcoorx.append(otherodom.pointarray[i].x)
+		robotcoory.append(otherodom.pointarray[i].y)
+	    
+	    robotnum = np.asarray(robotnum)
+	    robotcoorx = np.asarray(robotcoorx)
+	    robotcoory = np.asarray(robotcoory)
+
+            mindistance = 99999
+	    closestrobot = 0
+            index = 0
+            for i in range(len(robotnum)):
+		
+		distance = ((robotcoorx[i]-currx)**2+(robotcoory[i]-curry)**2)**0.5
+		if distance<mindistance and curry < robotcoory[i]+0.5:
+		    mindistance = distance
+		    closestrobot = robotnum[i]
+		    index = i
+
+	    #print('Closest Robot: ',closestrobot)
+	    #print('Distance : ', mindistance)
 	
+	    if (abs(robotcoorx[index]-currx) <= 0.5) and (abs(robotcoory[index]-curry) <= 0.6):
+		dynamicPassiveAvoid(robotcoorx[index]-currx,robotcoory[index]-curry)
+		return
 
-
-
-	else:
-	    print("FALSE")
-
-
-
-
-
-
+	    
 
 
 
