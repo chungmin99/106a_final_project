@@ -5,7 +5,7 @@ import sys
 #Import the String message type from the /msg directory of
 #the std_msgs package.
 
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, Point
 from nav_msgs.msg import Odometry
 
 import importlib
@@ -18,8 +18,8 @@ import numpy as np
 
 def update_data(index):
   def callback(message):
-    curr_pose = message
-    position_list[index] = curr_pose
+    curr_pose = message.pose.pose.position
+    position_list.pointarray[index] = curr_pose
 
   return callback    
 
@@ -39,6 +39,12 @@ if __name__ == '__main__':
   #called /obstacle_observer.
   rospy.init_node('obstacle_observer', anonymous=True)
   position_list = [0 for i in range(int(sys.argv[1]))]
+
+
+  position_list = _map_msg.OdomList()
+  for i in range(int(sys.argv[1])):
+	position_list.pointarray.append(Point())
+
 
   # TODO we should've launched whatever turtle obstacles from launch file
   try:
