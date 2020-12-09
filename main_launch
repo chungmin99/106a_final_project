@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# ./main_launch num_obstacles field_name (field_name TBD)
+# currently working on implementing num_obstacles
+
+source devel/setup.bash
+
+roslaunch map server_default_map.launch &
+serv_pid=$!
+
+sleep 5 
+
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5 5 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10 4 1
+rosrun map obstacle_controller.py 2
+
+trap "kill -2 $serv_pid" 2
+wait $serv_pid

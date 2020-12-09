@@ -10,7 +10,4 @@
 	
 	<node pkg="stdr_robot" type="robot_handler" name="$(anon robot_spawn)" args="add $(find stdr_resources)/resources/robots/rohan2.xml 1 2 0" />
 
-    <node pkg="stdr_robot" type="robot_handler" name="robot1" args="add $(find map)/turtlebot.yaml 5 5 0"/>
-    <!--node pkg="stdr_robot" type="robot_handler" name="robot2" args="add $(find turtlebot_stdr)/robot/turtlebot.yaml 10 4 0"/-->
-
 </launch>
