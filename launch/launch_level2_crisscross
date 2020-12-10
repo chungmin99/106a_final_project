@@ -2,27 +2,23 @@
 
 source devel/setup.bash
 
-roslaunch map server_default_map.launch map_name:="level2_horizontal.yaml" &
+roslaunch map server_default_map.launch map_name:="level2_crisscross.yaml" &
 serv_pid=$!
 
 sleep 5 
 
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 7.75 2 0
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 1 2 0
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 14.5 2 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 0.5 2 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 15 2 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5 3 0
-
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 4 5 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10.5 6 0
-
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 4.5 7.5 0
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 11 7.5 0
-
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 11 9.25 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10.5 7.5 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10.5 9.25 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 3.5 10.25 0
-
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 4.5 11 0
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 11 11.75 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 4.5 10.5 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 11.5 12 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 7.75 13 0
 
 rosrun map obstacle_controller.py 13 &
