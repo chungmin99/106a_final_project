@@ -2,15 +2,15 @@
 
 source devel/setup.bash
 
-roslaunch map server_default_map.launch map_name:="level2_horizontal.yaml" &
+roslaunch map server_default_map.launch map_name:="level2_doubleslanted.yaml" &
 serv_pid=$!
 
 sleep 5 
 
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 7.75 2 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5.75 2 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 1 2 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 14.5 2 0
-rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5 3 0
+rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 5.5 3 0
 
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 4 5 0
 rosrun stdr_robot robot_handler add src/map/turtlebot.yaml 10.5 6 0
