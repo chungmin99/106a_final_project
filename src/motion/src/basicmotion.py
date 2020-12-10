@@ -88,14 +88,16 @@ def dynamicPassiveAvoid(xdiff, ydiff):
 
 	# Limit max movement speed so that the robot does not teleport
 
-	if control_command.linear.x > 0.3:
-		control_command.linear.x = 0.3
-	if control_command.linear.x < -0.3:
-		control_command.linear.x = -0.3
-	if control_command.linear.y > 0.3:
-		control_command.linear.y = 0.3
-	if control_command.linear.y < -0.3:
-		control_command.linear.y = -0.3
+	maxAdjustment = 0.3
+
+	if control_command.linear.x > maxAdjustment:
+		control_command.linear.x = maxAdjustment
+	if control_command.linear.x < -maxAdjustment:
+		control_command.linear.x = -maxAdjustment
+	if control_command.linear.y > maxAdjustment:
+		control_command.linear.y = maxAdjustment
+	if control_command.linear.y < -maxAdjustment:
+		control_command.linear.y = -maxAdjustment
 
 
 	print(control_command.linear.x)
