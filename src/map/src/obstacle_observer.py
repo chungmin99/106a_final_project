@@ -23,12 +23,6 @@ def update_data(index):
 
   return callback    
 
-
-
-
-
-
-
 # This is Python's sytax for a main() method, which is run by default
 # when exectued in the shell
 if __name__ == '__main__':
