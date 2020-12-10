@@ -9,6 +9,6 @@
 
 	<include file="$(find stdr_gui)/launch/stdr_gui.launch"/>
 
-	<node pkg="stdr_robot" type="robot_handler" name="$(anon robot_spawn)" args="add $(find stdr_resources)/resources/robots/rohan2.xml 7.75 2 1.570796326795" />
+	<node pkg="stdr_robot" type="robot_handler" name="$(anon robot_spawn)" args="add $(find stdr_resources)/resources/robots/rohan2.xml 7.75 1 1.570796326795" />
 
 </launch>
